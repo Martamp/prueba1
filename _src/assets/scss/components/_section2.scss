@@ -1,0 +1,30 @@
+.section2 {
+  &__circle {
+    width: 150px;
+    height: 150px;
+    background-color: #666;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+  &__autor {
+    padding: 20px;
+  }
+  &container {
+    width: 50%;
+  }
+
+  &__aside {
+    padding: 20px;
+    width: 50%;
+    &--sec {
+      list-style: none;
+    }
+    &--cat {
+      list-style: none;
+      margin-top: 20px;
+    }
+  }
+  display: flex;
+  justify-content: space-between;
+}
